@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-import ExampleComponent from '{{name}}'
+import ExampleComponent from '{{name}}';
 
-export default class App extends Component {
+export default class App extends React.Component {
   render () {
     return (
       <div>

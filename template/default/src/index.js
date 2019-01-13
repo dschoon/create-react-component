@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import styles from './styles.css'
+import styles from './styles.scss';
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
+
+export default class ExampleComponent extends React.Component {
+  constructor(props) {
+    super(props);
   }
 
   render() {
@@ -15,8 +16,16 @@ export default class ExampleComponent extends Component {
 
     return (
       <div className={styles.test}>
-        Example Component: {text}
+        {text}
       </div>
     )
   }
 }
+
+ExampleComponent.propTypes = {
+  text: PropTypes.string
+};
+
+ExampleComponent.defaultProps = {
+  text: ''
+};

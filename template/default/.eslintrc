@@ -11,13 +11,71 @@
     "react"
   ],
   "parserOptions": {
-    "sourceType": "module"
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "blockBindings": true,
+      "classes": true,
+      "defaultParams": true,
+      "destructuring": true,
+      "forOf": true,
+      "generators": true,
+      "globalReturn": true,
+      "modules": true,
+      "spread": true,
+      "templateStrings": true,
+      "jsx": true
+    }
   },
   "rules": {
-    // don't force es6 functions to include space before paren
-    "space-before-function-paren": 0,
-
-    // allow specifying true explicitly for boolean props
-    "react/jsx-boolean-value": 0
+    "camelcase": ["error", {
+      "properties": "always"
+    }],
+    "comma-spacing": ["error", {
+      "before": false,
+      "after": true
+    }],
+    "consistent-return": ["off"],
+    "curly": "error",
+    "eol-last": "error",
+    "eqeqeq": "off",
+    "key-spacing": ["error", {
+      "beforeColon": false,
+      "afterColon": true
+    }],
+    "jsx-quotes": "off",
+    "new-cap": ["off"],
+    "no-dupe-keys": "error",
+    "no-dupe-args": "error",
+    "no-dupe-class-members": "error",
+    "no-duplicate-case": "error",
+    "no-lonely-if": "warn",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multiple-empty-lines": "error",
+    "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+    "no-redeclare": "error",
+    "no-shadow": ["off"],
+    "no-trailing-spaces": "error",
+    "no-unused-vars": ["warn", {"args": "after-used", "argsIgnorePattern": "^_"}],
+    "quotes": ["error", "single", "avoid-escape"],
+    "react/no-multi-comp": "off",
+    "react/jsx-boolean-value": "warn",
+    "react/jsx-no-bind": "error",
+    "react/jsx-no-undef": "warn",
+    "react/jsx-pascal-case": "error",
+    "react/jsx-tag-spacing": "error",
+    "react/prefer-es6-class": "error",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn",
+    "react/jsx-wrap-multilines": "error",
+    "react/no-is-mounted": "error",
+    "react/require-render-return": "error",
+    "react/sort-comp": "off",
+    "keyword-spacing": "warn",
+    "no-use-before-define": "off",
+    "space-before-blocks": ["error", "always"],
+    "no-undef": "warn"
   }
 }
