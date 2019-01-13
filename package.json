@@ -1,14 +1,13 @@
 {
-  "name": "create-react-library",
-  "version": "2.6.7",
-  "description": "CLI for easily bootstrapping modern react libraries",
-  "repository": "transitive-bullshit/create-react-library",
-  "author": "Travis Fischer <travis@automagical.ai>",
+  "name": "create-react-component",
+  "version": "1.0.0",
+  "description": "CLI for easily bootstrapping modern react components",
+  "repository": "dschoon/create-react-component",
+  "author": "Dan Schoonmaker <dschoon@gmail.com>",
   "main": "index.js",
   "license": "MIT",
-  "reveal": true,
   "bin": {
-    "create-react-library": "index.js"
+    "create-react-component": "index.js"
   },
   "scripts": {
     "test": "ava -v && standard *.js lib/*.js"

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './styles.scss';
+import styles from './styles/styles.scss';
 
 
 export default class ExampleComponent extends React.Component {
@@ -12,7 +12,7 @@ export default class ExampleComponent extends React.Component {
   render() {
     const {
       text
-    } = this.props
+    } = this.props;
 
     return (
       <div className={styles.test}>
