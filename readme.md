@@ -8,7 +8,7 @@
 ## Intro
 
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/dschoon/create-react-component/master/media/demo.svg">
+  <img width="600" src="media/demo.svg">
 </p>
 
 
@@ -53,7 +53,7 @@ Answer some basic prompts about your module, and then the CLI will perform the f
 At this point, your new module should resemble this screenshot and is all setup for local development.
 
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/dschoon/create-react-component/master/media/tree.svg">
+  <img width="600" src="media/tree.svg">
 </p>
 
 
